@@ -1,0 +1,28 @@
+/* Brand colours and spacing */
+:root {
+  --mb-bg:        #FAFAF9;   /* page background */
+  --mb-text:      #1A1A1A;   /* body copy */
+  --mb-cacao:     #3C2A24;   /* primary accent */
+  --mb-turmeric:  #DC971F;   /* call-to-action */
+
+  --mb-section-padding-desktop: 96px;
+  --mb-section-padding-mobile: 56px;
+}
+
+/* Brand button style */
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--mb-turmeric);
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #c8841a; /* 4% darker than #DC971F */
+} 
